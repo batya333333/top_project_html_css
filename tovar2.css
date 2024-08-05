@@ -1,0 +1,439 @@
+
+
+html {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+*,
+*::after,
+*::before {
+ box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    /* min-height: 60vh; */
+    /* background-image: url('fon-dlia-iuvelirnogo-magazina-1.webp'); */
+    /* background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; */
+
+}
+
+
+.tovar_card_cont{
+    height: 670px;
+    display: block;
+}
+
+.photo{
+    display: block;
+    height: 510px;
+    width: 500px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 200px;
+    transition:0.3s;
+}
+
+.tovar_img{
+    width: 460px;
+    border: solid 1.5px;
+    border-radius: 10px;
+}
+
+
+.desrription-left{
+    border-right: solid;
+    margin-right: 1260px;
+    position: absolute;
+    left: 83vh;
+    margin-top: 50px;
+    border-left: solid;
+    padding: 100px;
+}
+
+
+
+
+/* .text_for_img{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 740px;
+    margin-top: 180px;
+}
+
+
+.description{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 150px;
+    right: 160px;
+}*/
+
+.description p{
+    color: #fed154;
+} 
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.photo:hover{
+    transform: scale(110%);
+}
+
+
+
+
+.text_for_img h5{
+    color: grey;
+    font-size: x-small;
+}
+
+footer{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    margin-top:100px;
+}
+
+.footer-text{
+    text-align: center;
+    position:absolute;
+    top:65%;
+    left: 50%;
+    /* transform: translate(-50% 50%); */
+}
+
+.footer{
+
+    background-color: #fed154;
+    position:absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    display:flex;
+    justify-content: space-around; 
+    /* flex-wrap: wrap; */
+    margin-top: 160px;
+
+}
+
+.footer-left{
+    margin-top: 130px;
+}
+
+.footer-right{
+    margin-top: 120px;
+}
+
+.f-c h3{
+    text-transform: lowercase;
+    /* transition:0.3s; */
+}
+
+.f-c{
+    /* width: 290px; */ 
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap:4vw;
+
+}
+
+/* .f-c h3:hover{
+    color: white;
+} */
+
+.footer_a{
+    color:#000000;
+    transition:0.3s;
+
+}
+
+.footer_a:hover{
+    color: white;
+}
+
+a{
+    text-decoration:none;
+}
+
+
+.button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 12px;
+    background: #cccccc;
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 58px;
+    transition: .3s ease-in;
+ }
+
+.buy{
+    text-align: center;
+    height: 0px;
+    margin-top: 60px;
+    transition:.5s;
+}
+
+.text_for_img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.prise_img{
+    /* color: #fed154; */
+    position: absolute;
+    margin-top: 650px;
+    left: 180px;
+    font-size: 40px;
+    text-decoration: none;
+    border-bottom: solid 2px;
+}
+
+.size ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.size span{
+    margin-right: 20px;
+    /* border: solid; */
+    padding: 15px 30px;
+    border-radius: 10px;
+    transition:0.3s;
+}
+.size_chose{
+    position: absolute;
+    left: 1250px;
+    margin-top: 410px;
+}
+
+.size{
+    margin-top: 40px;
+}
+
+.tr:focus{
+   background-color: #fed154;
+}
+
+.log_main{
+    width: 100%;
+}
+
+.header{
+    background-color: #000000;
+}
+
+.container{
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+.logo{
+    width:100px;
+}
+
+a{
+    text-decoration:none;
+
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.menu__list-link:hover {
+    color: #fed154;
+}
+
+.menu__list-link {
+    color:#d3d3d3;
+    transition:0.3s;
+}
+
+.menu__list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+.menu__list-item{
+    margin-right:20px;
+}
+
+.logo-main{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.name{
+        color:#d3d3d3;
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        margin-left: 15vw;
+}
+
+.menu__list-link_login{
+    color:#d3d3d3;
+    transition:0.3s;
+    border: solid #fed154;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.menu__list-link_login:hover{
+    transform: scale(110%);
+    color: #fed154;
+    border: solid #d3d3d3;
+}
+
+.buy:hover{
+    transform: scale(110%);
+}
+
+@media(max-width:1024px){
+    .desrription-left{
+        left: 594px;
+    }
+    .prise_img{
+        left: 13.7vw;
+    }
+    .photo{
+        margin-left: 5.6vw;
+    }
+    .size_chose{
+        top: 80vh;
+        left: 51vh;
+    }
+}
+
+@media(max-width:1200px){
+    .name h5{
+        margin-left: 11vw;
+    }
+    .header{
+        width: 100%;
+    }
+}
+
+@media(max-width:860px){
+    .header{
+        width: 100%;
+    }
+}
+
+@media(max-width:680px){
+    .name h5{
+        margin-left: -7vw;
+    }
+}
+
+@media(max-width:580px){
+    .name h5{
+        margin-left: -12vw;
+    }
+    .menu__list-item{
+        margin-right: 4px;
+    }
+    .menu{
+        font-size: 8px;
+    }
+}
+
+@media(max-width:462px){
+    .name h5{
+        margin-left: -9vw;
+        font-size: 12px;
+    }
+    .name{
+        color: #d3d3d3;
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        margin-left: 22vw;
+    }
+    header{
+        width:109%;
+    }
+    .menu{
+        font-size: 8px;
+    }
+    .logo{
+        width: 12vw;
+    }
+}
+
+@media(max-width:375px){
+    header{
+        width: 114%;
+    }
+    .logo{
+        width: 12vw;
+    }
+    .name{
+        margin-left: 13vw;
+    }
+}
+
+@media(max-width:412px){
+    header{
+        width: 94%;
+    }
+    .name{
+        margin-left: 13vw;
+    }
+    .logo{
+        width: 12vw;
+    }
+    
+}
+
+@media(max-width:1200px){
+    .name h5{
+        margin-left: 11vw;
+    }
+    .size_chose{
+        top: 80vh;
+        left: 64vh;
+    }
+}
+
+.footer-left h4{
+    color: grey;
+}
+
+.footer-right h4{
+    color: grey;
+}
+
